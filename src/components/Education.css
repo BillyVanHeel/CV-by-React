@@ -1,0 +1,27 @@
+.education{
+    font-family: 'Courier New', Courier, monospace;
+}
+.education-list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-evenly;
+
+}
+.formation{
+    list-style: none;
+    display:grid;
+    grid-auto-columns: auto;
+    justify-content: center;
+    
+    
+
+}
+.formation li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.formation-name{
+    font-weight: bold;
+}

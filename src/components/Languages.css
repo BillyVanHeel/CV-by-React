@@ -1,0 +1,15 @@
+.languages{
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.language-list{
+ display: grid;
+ grid-template-rows: 50% 50%;
+}
+.language-list p{
+  display: flex;
+  flex-direction: row;
+}
+.language-list span{
+   display: inline;
+}

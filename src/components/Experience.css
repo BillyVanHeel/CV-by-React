@@ -1,0 +1,46 @@
+.experience{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.experience-list{
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 30%);
+}
+.field{
+  display:grid;
+  grid-auto-rows: auto;
+  gap: 0;
+  justify-content: start;
+
+}
+.gig{
+    display: grid;
+    grid-auto-rows:auto;
+    justify-content: start;
+    row-gap: 0;   
+}
+.gig-list{
+    list-style: none;
+    margin: 5px;
+}
+.gig-list li{
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+.gig-list li span{
+    display: flex;
+    justify-content: flex-start;
+}
+.title{
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+    height: 100%;
+}

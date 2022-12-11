@@ -1,0 +1,45 @@
+.villain{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border-bottom: dashed;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.villain-about{
+    padding-bottom: 2px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    padding-left: 80px;
+    column-gap: 60px;
+}
+.villain-contact{
+    border-bottom: dashed;
+    display: grid;
+    padding: 20px;
+    grid-template-columns: 50% 50%;
+ }
+ .villain-contact p{
+    display: flex;
+    justify-content: flex-start;
+ }
+.villain-contact p span{
+    display: inline;
+}
+.villain-info{
+    border-bottom: dashed;
+    display: grid;
+    grid-template-rows: 20% 20% 20%;
+}
+.villain-name{
+    border-bottom: dashed black; 
+}
+
+.villain-pic{
+    border: dashed black; 
+    width: 99%;
+    height: 99%;
+}
+.title{
+    font-weight: bold;
+    }
